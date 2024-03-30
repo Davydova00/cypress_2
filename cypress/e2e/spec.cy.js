@@ -1,6 +1,6 @@
 const { expect } = require('chai');
 import { LoginForm } from '../pom/LoginForm';
-describe('Проверка главной страницы', () => {
+describe('Проверка формы логина', () => {
   it('Тест 1', () => {
     cy.visitHomePage();
     cy.wait(10000);
